@@ -1,26 +1,7 @@
 Meridian 59 v1.1, January, 2015
 Andrew Kirmse and Chris Kirmse
 
-Copyright 1994-2025 Andrew Kirmse and Chris Kirmse
-All rights reserved.  Meridian is a registered trademark.
-
-
-LICENSE
-
-This project is distributed under a license that is described in the
-LICENSE file.  The license does not cover the game content (artwork,
-rooms, audio, etc.), which are not included.
-
-Note that "Meridian" is a registered trademark and you may not use it
-without our written permission.
-
-The license requires that if you redistribute this code in any form,
-you must make the source code available, including any changes you
-make.  We would love it if you would contribute your changes back to
-the original source so that everyone can benefit.
-
-
-WHAT'S INCLUDED AND NOT INCLUDED
+# WHAT'S INCLUDED AND NOT INCLUDED
 
 The source to the client, server, game code, Blakod compiler, room
 editor, and all associated tools are included.  The source code to the
@@ -28,21 +9,21 @@ Miles Sound System audio library is not included.  Client builds that you
 make will use the fallback waveplay audio library instead.
 
 
-BUILD INSTRUCTIONS
+## BUILD INSTRUCTIONS
 
 The code has been built successfully with Microsoft Visual Studio 2022
 Community Edition, which you can download for free at 
 https://visualstudio.microsoft.com/downloads/
 
-1. Make sure Visual Studio's binaries are in your path, e.g. by using
+- 1. Make sure Visual Studio's binaries are in your path, e.g. by using
 the vcvars32.bat script that comes with Visual Studio.
 
-2. Go to the top-level directory (the one that contains this README).
+- 2. Go to the top-level directory (the one that contains this README).
 
-3. Type "nmake" to build debug versions, or "nmake RELEASE=1" to build
+- 3. Type "nmake" to build debug versions, or "nmake RELEASE=1" to build
 release versions.
 
-RUN INSTRUCTIONS
+## RUN INSTRUCTIONS
 
 After building the code, a server install is available in the
 run\server directory.  Type "blakserv.exe" in that directory to run
